@@ -10,4 +10,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 04. [constants](src/04-constants)
 05. [for](src/05-for)
 06. [if-else](src/06-if-else)
+07. [switch](src/07-switch)
 
