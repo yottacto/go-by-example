@@ -20,4 +20,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 14. [variadic-functions](src/14-variadic-functions)
 15. [closures](src/15-closures)
 16. [recursion](src/16-recursion)
+17. [pointers](src/17-pointers)
 
