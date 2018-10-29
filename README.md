@@ -13,4 +13,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 07. [switch](src/07-switch)
 08. [arrays](src/08-arrays)
 09. [slices](src/09-slices)
+10. [maps](src/10-maps)
 
