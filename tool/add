@@ -13,7 +13,9 @@ function find_current_max
     end
 end
 
-set -l readme "../README.md"
+set -l root (git rev-parse --show-toplevel)
+set -l readme "$root/README.md"
+
 set -l name $argv[1]
 set -l num (find_current_max $readme)
 
@@ -22,5 +24,5 @@ if test $num -eq 1
 end
 
 sed -i "\$i$num. [$name](src/$num-$name)" $readme
-mkdir -p "../src/$num-$name"
+mkdir -p "$root/src/$num-$name"
 
