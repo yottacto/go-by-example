@@ -17,4 +17,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 11. [range](src/11-range)
 12. [functions](src/12-functions)
 13. [multiple-return-values](src/13-multiple-return-values)
+14. [variadic-functions](src/14-variadic-functions)
 
