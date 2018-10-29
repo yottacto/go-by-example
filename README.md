@@ -33,4 +33,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 27. [select](src/27-select/main.go)
 28. [timeouts](src/28-timeouts/main.go)
 29. [non-blocking-channel-operations](src/29-non-blocking-channel-operations/main.go)
+30. [closing-channels](src/30-closing-channels/main.go)
 
