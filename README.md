@@ -30,4 +30,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 24. [channel-buffering](src/24-channel-buffering)
 25. [channel-synchronizaiton](src/25-channel-synchronizaiton)
 26. [channel-directions](src/26-channel-directions)
+27. [select](src/27-select)
 
