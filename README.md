@@ -27,4 +27,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 21. [errors](src/21-errors)
 22. [goroutines](src/22-goroutines)
 23. [channels](src/23-channels)
+24. [channel-buffering](src/24-channel-buffering)
 
