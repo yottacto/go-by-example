@@ -25,4 +25,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 19. [methods](src/19-methods)
 20. [interfaces](src/20-interfaces)
 21. [errors](src/21-errors)
+22. [goroutines](src/22-goroutines)
 
