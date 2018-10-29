@@ -6,7 +6,11 @@ function find_current_max
     if test $cur_max -ge $now
         set now $cur_max
     end
-    echo $now
+    if test $now -lt 10
+        echo "0$now"
+    else
+        echo $now
+    end
 end
 
 set -l readme "../README.md"
@@ -16,6 +20,7 @@ set -l num (find_current_max $readme)
 if test $num -eq 1
     echo "" >> $readme
 end
-sed -i "\$i$num. [$name](src/$name)" $readme
-mkdir -p ../src/$name
+
+sed -i "\$i$num. [$name](src/$num-$name)" $readme
+mkdir -p "../src/$num-$name"
 
