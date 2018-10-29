@@ -15,4 +15,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 09. [slices](src/09-slices)
 10. [maps](src/10-maps)
 11. [range](src/11-range)
+12. [functions](src/12-functions)
 
