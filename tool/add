@@ -1,0 +1,21 @@
+#!/usr/bin/fish
+
+function find_current_max
+    set -l now 1
+    set -l cur_max (tail -n+7 $argv[1] | cut -f1 -d. | wc -l)
+    if test $cur_max -ge $now
+        set now $cur_max
+    end
+    echo $now
+end
+
+set -l readme "../README.md"
+set -l name $argv[1]
+set -l num (find_current_max $readme)
+
+if test $num -eq 1
+    echo "" >> $readme
+end
+sed -i "\$i$num. [$name](src/$name)" $readme
+mkdir -p ../src/$name
+
