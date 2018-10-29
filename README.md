@@ -22,4 +22,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 16. [recursion](src/16-recursion)
 17. [pointers](src/17-pointers)
 18. [structs](src/18-structs)
+19. [methods](src/19-methods)
 
