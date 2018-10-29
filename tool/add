@@ -23,6 +23,6 @@ if test $num -eq 1
     echo "" >> $readme
 end
 
-sed -i "\$i$num. [$name](src/$num-$name)" $readme
+sed -i "\$i$num. [$name](src/$num-$name/main.go)" $readme
 mkdir -p "$root/src/$num-$name"
 
