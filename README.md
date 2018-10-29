@@ -9,4 +9,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 03. [variables](src/03-variables)
 04. [constants](src/04-constants)
 05. [for](src/05-for)
+06. [if-else](src/06-if-else)
 
