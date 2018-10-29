@@ -32,4 +32,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 26. [channel-directions](src/26-channel-directions)
 27. [select](src/27-select)
 28. [timeouts](src/28-timeouts)
+29. [non-blocking-channel-operations](src/29-non-blocking-channel-operations)
 
