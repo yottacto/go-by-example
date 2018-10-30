@@ -36,4 +36,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 30. [closing-channels](src/30-closing-channels/main.go)
 31. [range-over-channels](src/31-range-over-channels/main.go)
 32. [timers](src/32-timers/main.go)
+33. [tickers](src/33-tickers/main.go)
 
