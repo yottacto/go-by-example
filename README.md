@@ -41,4 +41,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 35. [rate-limiting](src/35-rate-limiting/main.go)
 36. [atomic-counters](src/36-atomic-counters/main.go)
 37. [mutexes](src/37-mutexes/main.go)
+38. [stateful-goroutines](src/38-stateful-goroutines/main.go)
 
