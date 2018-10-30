@@ -39,4 +39,5 @@ Writing go examples from [gobyexample](https://gobyexample.com/).
 33. [tickers](src/33-tickers/main.go)
 34. [worker-pools](src/34-worker-pools/main.go)
 35. [rate-limiting](src/35-rate-limiting/main.go)
+36. [atomic-counters](src/36-atomic-counters/main.go)
 
